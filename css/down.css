@@ -1,0 +1,50 @@
+@charset "utf-8";
+#down-warp{
+	width: 945px;
+	height: 620px;
+	margin:0 auto;
+}
+#down-warp table{
+	margin: 50px auto 20px;
+	text-align: center;
+}
+#down-warp tr{
+	border: 1px solid #8a8a8a;
+}
+#down-warp td{
+	line-height: 30px;
+	border: 1px solid #8a8a8a;
+	padding: 8px;
+}
+.tableTime{
+	width: 120px;
+}
+.tableName{
+	width: 380px;
+	text-align: left;
+}
+.sendMethod{
+	width: 190px;
+}
+.down-wrap{
+	background-color: #bc0203;
+	color: #fff;
+	border-radius: 3px;
+	padding: 5px 12px;
+	margin: 0px 14px; 
+}
+.down-icon{
+	margin-left: 5px;
+}
+.pageNum-wrap{
+	overflow: hidden;
+
+}
+.pageNum{
+	float: right;
+	margin-right: 56px;
+}
+.page{
+	margin-left: 8px;
+	height: 20px;
+}

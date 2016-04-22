@@ -1,0 +1,408 @@
+@charset 'utf-8';
+@font-face {
+  font-family: 'LTHJT';
+  src: url('../fonts/FZLTHJW_0.TTF');
+  src:
+    url('../fonts/FZLTHJW_0.TTF?#font-spider') format('embedded-opentype'),
+    url('../fonts/pinghei.woff') format('woff'),
+    url('../fonts/FZLTHJW_0.TTF') format('truetype'),
+    url('../fonts/pinghei.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+ font-family: 'ZHJT';
+ src: url('../fonts/FZZZHUNHJW_0.TTF');
+ src:
+    url('../fonts/FZZZHUNHJW_0.TTF?#font-spider') format('embedded-opentype'),
+    url('../fonts/FZZZHUNHJW_0.woff') format('woff'),
+    url('../fonts/FZZZHUNHJW_0.TTF') format('truetype'),
+    url('../fonts/FZZZHUNHJW_0.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+ font-family: 'HJT';
+ src: url('../fonts/FZZHJW_0.TTF');
+ src:
+    url('../fonts/FZZHJW_0.TTF?#font-spider') format('embedded-opentype'),
+    url('../fonts/FZZHJW_0.woff') format('woff'),
+    url('../fonts/FZZHJW_0.TTF') format('truetype'),
+    url('../fonts/FZZHJW_0.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+.wrap{
+    width: 972px;
+    height: auto;
+    margin: 0 auto;
+}
+ul{
+    overflow: auto;
+}
+li{
+    float: left;
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+}
+#header{
+    width: 100%;
+    height: 92px;
+}
+
+/*header logo
+----------------------------------------------- */
+.logo{
+    float: left;
+    width: 60%;
+}
+.logo img{
+    width: 473px;
+    height: 89px;
+}
+.tel{
+    font-size: 20px;
+    float: right;
+    margin-top: 20px;
+}
+.tel span{
+    font-size: 14px;
+    line-height: 28px;
+    float: right;
+}
+
+/*mainNav
+----------------------------------------------- */
+#mainNav{
+    width: 100%;
+    height: 40px;
+    background-color: #bc0203;
+}
+#mainNav ul{
+    width: 918px;
+    margin: 0 auto;
+}
+#mainNav ul li{
+    font-size: 22px;
+    line-height: 40px;
+    color: #fff;
+    width: 12%;
+    text-align: center;
+    font-family: "LTHJT";
+}
+#mainNav img{
+    height: 40px;
+    float: right; 
+}
+.lala{
+    float: left;
+}
+#mainNav ul li:hover,
+#mainNav ul li:active{
+    background-color: #7D0000;
+    text-decoration: none;
+}
+#mainNav ul li a{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+.first{
+    margin-left: 15px;
+}
+/*first content
+----------------------------------------------- */
+.wrap1{
+    overflow: none;
+    width: 1011px;
+    margin: 0 auto;
+}
+.header{
+    font-size: 16px;
+    width: 100%;
+    height: 72px;
+    margin-top: 60px;
+    text-align: center;
+    background-image:url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header span{
+    font-size: 32px;
+    display: block;
+    font-family: "HJT"
+}
+.indexWrap-1-con{
+    overflow: hidden;
+    margin: 30px auto 30px;
+}
+.indexWrap-1-con dl{
+    float: left;
+    width: 310px;
+}
+.indexWrap-1-con dl dt{
+    font-size: 18px;
+    line-height: 36px;
+    height: 36px;
+}
+.indexWrap-1-con dl dd{
+    line-height: 24px;
+    text-align: justify;
+}
+.indexWrap-1-con dl dd img{
+    margin-bottom: 10px;
+}
+.indexWrap-1-con dl.c1mr{
+    margin-right: 26px;
+}
+.indexWrap-1-con dt{
+    margin-right: 26px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "ZHJT";
+}
+
+
+/*second content
+----------------------------------------------- */
+.wrap2{
+    display: block;
+    width: 100%;
+    height: 468px;
+    padding-top: 10px;
+    background-color: #e6e6e6;
+    overflow: hidden;
+}
+.indexWrap-2-con{
+    display: block;
+    width: 978px;
+    margin: 30px auto 30px;
+}
+.wrap2 img{
+    width: 100%;
+}
+
+/*third content
+----------------------------------------------- */
+.indexWrap-3-con{
+    overflow: hidden;
+    display: block;
+    width: 1011px;
+    margin: 40px auto 40px;
+}
+.indexWrap-3-con-left{
+    float: left;
+    width: 316px;
+}
+.Wrap-3-right-con{
+    float: left;
+    width: 280px;
+    overflow: hidden;
+    margin-left: 50px;
+}
+.Wrap-3-right-con li{
+    float: none;
+    line-height: 30px;
+    font-size: 15px;
+}
+.wrap3-font{
+    color: #bc0203;
+    line-height: 30px;
+    font-size: 20px;
+    margin-right: 8px;
+}
+/*fourth content
+----------------------------------------------- */
+.indexWrap-4{ 
+    overflow:hidden; 
+    display: block;
+    width: 100%;
+    background-color: #e6e6e6;
+}
+.wrap4{
+    display: block;
+    width: 1011px;
+    margin: 30px auto 30px;
+}
+.indexWrap-4 .piclist{
+    position: relative;
+
+    width: 1000px;
+    height: 200px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.indexWrap-4 .picslide{
+    overflow: hidden;  
+
+    width: 950px;
+    height: 200px;
+    margin: 0 auto;
+}
+.indexWrap-4 .picslide ul{
+    width: 960px;
+    height: 200px;
+}
+.indexWrap-4 .picslide ul li{
+    float: left;
+
+    margin-right: 20px;
+}
+.indexWrap-4 .picslide ul li img{
+    width: 229px;
+    height: 166px;
+}
+.indexWrap-4 .picprev,
+.indexWrap-4 .picnext{
+    position: absolute;
+    top: 76px;
+
+    display: block;
+
+    width: 21px;
+    height: 33px;
+
+    cursor: pointer;
+
+    background-image: url(../images/pnico.png);
+}
+.indexWrap-4 .picprev{
+    left: 0;
+
+    background-position: 0 0;
+}
+.indexWrap-4 .picnext{
+    right: 0;
+
+    background-position: -21px 0;
+}
+
+/* 5th content
+----------------------------------------------- */
+.wrap5{
+    width: 965px;
+    margin: 30px auto 30px;
+}
+.link-nav{
+    line-height: 26px;
+    color: #540000;
+    width: 70px;
+    margin-left: 5px;
+
+    text-align: center;
+
+    border-top: 2px #cbcbcb solid;
+    border-left: 2px #cbcbcb solid;
+    border-right: 2px #cbcbcb solid;
+    border-radius: 5px
+}
+
+.wrap5-link {
+    margin: -2px auto ;
+    border:1px #e5e5e5 solid;
+    box-shadow: -2px 0 5px #e5e5e5,inset 0 -5px 5px #e5e5e5, 2px 0 5px #e5e5e5,inset 0 5px 5px #e5e5e5;
+}
+.wrap5-link a, .wrap5-link a:visited{
+    margin-left: 32px;
+    color: black;
+    line-height: 30px;
+}
+.wrap5-link a:hover, .wrap5-link a:active{
+    color: #540000;
+    text-decoration: none;
+}
+
+/* footer
+----------------------------------------------- */
+#footer{
+    line-height: 25px;
+
+    padding: 35px 0;
+
+    color: #f2f0f0;
+    border-top: 1px solid #d3d3d3;
+    background-color: #666666;
+}
+.footerWrap{
+    width: 1011px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-left: 15px;
+}
+#footer a{
+    color: #f2f0f0;
+}
+#footer .ftop{
+    overflow: hidden;
+}
+#footer .ftop .ftb1{
+    float: left;
+
+    width: 130px;
+}
+#footer .ftop .ftb2{
+    float: left;
+
+    width: 130px;
+    margin-left: 75px;
+}
+#footer .ftop .ftb3{
+    float: left;
+
+    width: 130px;
+    margin-left: 75px;
+}
+#footer .ftop .ftb4{
+    float: left;
+
+    width: 130px;
+    margin-left: 75px;
+}
+#footer .ftop .ftb5{
+    float: left;
+
+    width: 130px;
+    margin-left: 75px;
+}
+#footer .ftop .ftitle{
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 12px;
+}
+#footer .ftop .fcontent{
+    line-height: 22px;
+
+    padding: 15px 0 40px 0;
+
+    border-top: #464646 1px solid;
+}
+#footer .ftico{
+    margin-bottom: 25px;
+
+    text-align: center;
+}
+#footer .footNav{
+    text-align: center;
+}
+#footer .footNav i{
+    margin: 0 12px;
+
+    color: #ccc;
+}
+#footer .footNav a.first{
+    margin-left: 0;
+}
+#footer .copyRight{
+    font-family: "微软雅黑";
+
+    text-align: center;
+}
+
