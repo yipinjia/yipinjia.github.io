@@ -41,6 +41,25 @@ $(document).ready(function(){
 	});
 });
 
+$(document).ready(function(){
+	$("#firstPage").click(function(){
+		$("#company-news-page1").css("display","block");
+		$("#company-news-page2").css("display","none");
+	});
+	$("#lastPage").click(function(){
+		$("#company-news-page2").css("display","block");
+		$("#company-news-page1").css("display","none");
+	});
+	$("#prevPage").click(function(){
+		$("#company-news-page1").css("display","block");
+		$("#company-news-page2").css("display","none");
+	});
+	$("#nextPage").click(function(){
+		$("#company-news-page2").css("display","block");
+		$("#company-news-page1").css("display","none");
+	});
+});
+
 	
 
 

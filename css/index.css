@@ -32,12 +32,7 @@
   font-weight: normal;
   font-style: normal;
 }
-*{
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
-    font-family: "微软雅黑";
-}
+*{margin: 0;padding: 0;font-size: 14px;font-family: "微软雅黑";}
 .wrap{
     width: 972px;
     height: auto;
@@ -55,7 +50,7 @@ li a{
 }
 #header{
     width: 100%;
-    height: 92px;
+    height: 97px;
 }
 
 /*header logo
@@ -65,8 +60,15 @@ li a{
     width: 60%;
 }
 .logo img{
-    width: 473px;
-    height: 89px;
+    float: left;
+    width: 214px;
+    height: 97px;
+}
+.logo div{
+    font-size: 24px;
+    font-family: "ZHJT";
+    float: left;
+    margin-top: 36px;
 }
 .tel{
     font-size: 20px;
@@ -201,6 +203,11 @@ li a{
 .indexWrap-3-con-left{
     float: left;
     width: 316px;
+}
+.Wrap-3-right-con a,
+.Wrap-3-right-con a:hover,
+.Wrap-3-right-con a:active{
+    color: black;
 }
 .Wrap-3-right-con{
     float: left;
@@ -405,4 +412,53 @@ li a{
 
     text-align: center;
 }
-
+#a-wrap{
+    width: 100%;
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+.index-a{
+    margin:40px auto;
+    width: 965px;
+    height: auto;
+    padding: 30px 30px;
+    border-radius: 1px;
+    background-color: #fff;
+    box-shadow: 6px 6px 16px 6px #cfcfcf;
+}
+.a-header{
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 30px;
+}
+.a-header span{
+    display: block;
+    color: #990000;
+    margin:0 auto; 
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.index-a-con p{
+    text-indent: 2em;
+    line-height: 30px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.no-indet{
+    line-height: 30px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-indent: 0 !important;
+}
+.index-p-a{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.font_c{
+    font-weight: bolder;
+}
+.index-p-a a,.index-p-a a:hover,.index-p-a a:active{
+    color: #666666;
+}
